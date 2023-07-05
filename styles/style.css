@@ -1,0 +1,156 @@
+html, body, h1 ,h2, h3, div, p , ul, footer {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    
+}
+label {
+    display: block;
+    
+}
+
+progress {
+    margin-bottom: 10px;
+    border: 1px solid #85bcc1;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background-color:  #fbe06d;
+    font-family: 'Inter', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.container{
+    max-width: 1020px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+
+}
+
+.header{
+    border-bottom: 1px solid gray;
+    background-color: #85bcc1;
+}
+
+
+
+.menu__list{
+    display: flex;
+    
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu__link{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.block-title{
+    background-color: #85bcc1;
+    padding: 5px 70px 5px 15px;
+    color: white;
+    display: inline-block;
+    border-radius:0 20px 20px 0;
+    
+}
+
+.info{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+    background-image:url(/images/bg.png);
+    flex-grow: 1;
+    border-radius: 10px;
+}
+
+.info__img{
+    grid-row: 1/3;
+    
+    border-radius: 30px;
+}
+
+
+.info__name{
+    font-size: 36px;
+    color: #85bcc1;
+    margin-bottom: 15px;
+}
+
+.info__prof{
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    background-color: #85bcc1;
+    border-radius: 20px;
+}
+
+
+
+.info__about-me span {
+    color: #85bcc1;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.education__title, .exp__title, .languages__title, .skills__title, .contacts__title {
+    margin-bottom: 15px;
+}
+
+
+
+.education__text h3{
+    margin-bottom: 2px;
+    color: #85bcc1;
+
+}
+.contacts{
+    grid-column: 1/3;
+}
+.contacts__title{
+    margin-bottom: 30px;
+}
+.contacts__data{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color:#85bcc1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer a {
+    display: inline-block;
+
+}
